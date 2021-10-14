@@ -1,0 +1,327 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+    background-color: rgb(15, 15, 15);
+    margin:2px ;
+}
+h1{
+    text-align: center ;
+    color: whitesmoke;
+    text-shadow:0px 0px 7px rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    opacity: 0.3;
+} 
+.parra,.pa{
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    color: white;
+    width:90%;
+    margin-bottom: 10px;
+}
+
+.tabla{
+    margin: 0px;
+    width: 90%;
+}
+.tabla,.da,.dato{
+    margin: 0 auto;
+    text-align: center;
+    color:white;
+    border: 2px rgb(255, 255, 255) solid;
+    border-collapse: collapse;
+    font-size: 12px;
+    background-color: midnightblue;
+}
+.tabla th{
+    margin: 0 auto;
+    text-align: center;
+    padding: 2px;
+    color:white;
+    border: 2px rgb(255, 255, 255) solid;
+    border-collapse: collapse;
+    font-size: 15px;
+    background-color: rgb(56, 55, 55);
+}
+.hora{
+    padding: 3px;
+    margin: 0 auto;
+    text-align: center;
+    color:white;
+    border: 2px rgb(255, 255, 255) solid;
+    border-collapse: collapse;
+    font-size: 12px;
+    background-color: rgb(21, 29, 37);
+}
+h3{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+    font-size:30px;
+    text-shadow: 0px 0px 10px rgb(0, 0, 255);
+
+}
+.comida{
+    padding-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-shadow: none;
+    color: whitesmoke;
+}
+.descrip{
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    color: white;
+    width:90%;
+    margin-bottom: 10px;
+}
+.ingredi,.prepa{
+    background-color: #5f9ea0;
+    margin: 0;
+    margin-top: 20px;
+    margin-left:5%;
+    margin-right: 5%;
+    padding: 5px;
+    padding-left: 33px;
+    border: 2px solid rgb(100, 149, 237);
+    border-radius:20px ;
+}
+.padre li{
+    margin-bottom: 5px;
+}
+h2{
+    text-align: center;
+    color: black;
+}
+.formulario{
+    background-color:  #477577;;
+    border-radius: 20px;
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.formulario h3{
+    font-size:25px ;
+    margin-bottom:10px ;
+}
+.formulario p{
+    display: block;
+    margin-bottom: 10px;
+}
+.formulario input{
+    margin-left: 5px;
+    display:block;
+    height: 40px;
+    padding-left: 5px;
+    min-width: 90%;
+}
+.formulario textarea{
+    display: block;
+    margin-left: 5px;
+    padding-left: 5px;
+    min-height:40px;
+    min-width: 90%;
+    padding-top:10px ;
+    font-family: arial;
+}
+.formulario input,textarea{
+    margin-bottom: 15px;
+
+}
+.formulario button{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid black;
+    width: 70px;
+    height: 35px;
+    border-radius: 18px;
+}
+.formulario button:hover{
+    margin-top: -5px;
+    cursor: pointer;
+    border: rgb(255, 255, 255) 2px solid;
+    color: white;
+    background-color: black;
+    font-size: 17px;
+    width: 80px;
+    height: 45px;
+    border-radius: 25px
+}
+
+@media(min-width:720px){
+    h1{
+        text-align: center ;
+        color: whitesmoke;
+        text-shadow:0px 0px 7px rgb(255, 255, 255);
+    }
+    img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin: 0 auto;
+        display: block;
+        opacity: 0.3;
+    } 
+    .parra,.pa{
+        margin-top: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: justify;
+        color: white;
+        width:90%;
+        margin-bottom: 20px;
+    }
+    .tabla{
+        margin: 0px;
+        width: 90%;
+    }
+    .tabla,.da,.dato{
+        margin: 0 auto;
+        text-align: center;
+        color:white;
+        border: 2px rgb(255, 255, 255) solid;
+        border-collapse: collapse;
+        font-size: 20px;
+    }
+    h3{
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: left;
+        font-size:30px;
+    }
+    .tabla th{
+        margin: 0 auto;
+        text-align: center;
+        padding: 2px;
+        color:white;
+        border: 2px rgb(255, 255, 255) solid;
+        border-collapse: collapse;
+        font-size: 15px;
+        background-color: rgb(56, 55, 55);
+    }
+    .hora{
+        padding: 3px;
+        margin: 0 auto;
+        text-align: center;
+        color:white;
+        border: 2px rgb(255, 255, 255) solid;
+        border-collapse: collapse;
+        font-size: 12px;
+        background-color: rgb(21, 29, 37);
+    }
+    .comida{
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: left;
+        font-size:30px;
+    }
+    .descrip{
+        margin-top: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: justify;
+        color: white;
+        width:90%;
+        margin-bottom: 10px;
+    }
+    .ingredi,.prepa{
+        background-color: #5f9ea0;
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 5px;
+        padding-left: 33px;
+        border: 2px solid rgb(10, 52, 129);
+        border-radius:20px ;
+    }
+    .padre li{
+        margin-bottom: 5px;
+    }
+    h2{
+        text-align: center;
+        color: black;
+    }
+    .formulario{
+        background-color:  #477577;;
+        border-radius: 5px;
+        width: 500px;
+        height: auto;
+        padding: 10px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .formulario h3{
+        font-size:25px ;
+        margin-bottom:10px ;
+    }
+    .formulario p{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .formulario input{
+        margin-left: 5px;
+        display:block;
+        height: 40px;
+        padding-left: 5px;
+        min-width: 90%;
+    }
+    .formulario textarea{
+        display: block;
+        margin-left: 5px;
+        padding-left: 5px;
+        min-height:40px;
+        min-width: 90%;
+        padding-top:10px ;
+        font-family: arial;
+    }
+    .formulario input,textarea{
+        margin-bottom: 15px;
+    
+    }
+    .formulario button{
+        display: block;
+        margin: 0 auto;
+        border: 2px solid black;
+        width: 70px;
+        height: 35px;
+        border-radius: 18px;
+    }
+    .formulario button:hover{
+        margin-top: -5px;
+        cursor: pointer;
+        border: rgb(255, 255, 255) 2px solid;
+        color: white;
+        background-color: black;
+        font-size: 17px;
+        width: 80px;
+        height: 45px;
+        border-radius: 25px
+    }
+
+}
+
